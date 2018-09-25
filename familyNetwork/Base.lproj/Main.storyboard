@@ -292,7 +292,7 @@
     <resources>
         <image name="Third-sliderBG" width="374" height="686"/>
         <image name="backSign" width="30" height="39"/>
-        <image name="first-sliderBG" width="343" height="614"/>
+        <image name="first-sliderBG" width="520" height="966"/>
         <image name="four-Slider" width="373" height="678"/>
         <image name="learnBtn" width="257" height="23"/>
         <image name="login-Btn" width="216" height="71"/>

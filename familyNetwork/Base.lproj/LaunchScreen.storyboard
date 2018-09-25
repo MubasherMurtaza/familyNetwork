@@ -27,7 +27,7 @@
                             <constraint firstItem="tSb-Rx-kGL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="1Hr-BM-cO3"/>
                             <constraint firstItem="tSb-Rx-kGL" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="DJ7-Vl-Jp4"/>
                             <constraint firstItem="tSb-Rx-kGL" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="PSP-yO-fCn"/>
-                            <constraint firstItem="tSb-Rx-kGL" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="xmy-rM-1wM"/>
+                            <constraint firstItem="tSb-Rx-kGL" firstAttribute="bottom" secondItem="Ze5-6b-2t3" secondAttribute="bottom" id="xmy-rM-1wM"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
