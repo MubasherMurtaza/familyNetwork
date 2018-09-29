@@ -13,6 +13,7 @@
 		190C5204215A178D004FAE13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 190C5203215A178D004FAE13 /* Assets.xcassets */; };
 		190C5207215A178D004FAE13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 190C5205215A178D004FAE13 /* LaunchScreen.storyboard */; };
 		19237ABD215A71710049CBF8 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19237ABC215A71710049CBF8 /* LoginVC.swift */; };
+		19958C1F215F37F800953474 /* LocationTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19958C1E215F37F800953474 /* LocationTabVC.swift */; };
 		19DFE30A215B81F600D3F068 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DFE309215B81F600D3F068 /* UIHelper.swift */; };
 		19F135AE215CBD2900D97CE4 /* ForgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F135AD215CBD2900D97CE4 /* ForgetViewController.swift */; };
 		5CFB36ADA88C4311216FC844 /* Pods_familyNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7779D5AB115352DF7BE3B98 /* Pods_familyNetwork.framework */; };
@@ -27,6 +28,7 @@
 		190C5206215A178D004FAE13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		190C5208215A178D004FAE13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19237ABC215A71710049CBF8 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginVC.swift; path = Controller/LoginVC.swift; sourceTree = "<group>"; };
+		19958C1E215F37F800953474 /* LocationTabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocationTabVC.swift; path = Controller/LocationTabVC.swift; sourceTree = "<group>"; };
 		19DFE309215B81F600D3F068 /* UIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIHelper.swift; path = Utilities/UIHelper.swift; sourceTree = "<group>"; };
 		19F135AD215CBD2900D97CE4 /* ForgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ForgetViewController.swift; path = Controller/ForgetViewController.swift; sourceTree = "<group>"; };
 		A3C4681A66E7A8378C460D1A /* Pods-familyNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-familyNetwork.release.xcconfig"; path = "Pods/Target Support Files/Pods-familyNetwork/Pods-familyNetwork.release.xcconfig"; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				190C51FE215A178B004FAE13 /* ViewController.swift */,
 				19237ABC215A71710049CBF8 /* LoginVC.swift */,
 				19F135AD215CBD2900D97CE4 /* ForgetViewController.swift */,
+				19958C1E215F37F800953474 /* LocationTabVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 				19F135AE215CBD2900D97CE4 /* ForgetViewController.swift in Sources */,
 				19237ABD215A71710049CBF8 /* LoginVC.swift in Sources */,
 				19DFE30A215B81F600D3F068 /* UIHelper.swift in Sources */,
+				19958C1F215F37F800953474 /* LocationTabVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
