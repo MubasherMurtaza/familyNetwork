@@ -8,6 +8,10 @@
 
 import UIKit
 import IQKeyboardManagerSwift
+import SideMenu
+
+let app = UIApplication.shared.delegate as! AppDelegate
+let storyBoardMain = UIStoryboard(name: "Main", bundle: nil)
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -19,6 +23,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         IQKeyboardManager.shared.enable = true
+        SideMenuManager.default.menuPresentMode = .menuSlideIn
+        
         return true
     }
 
@@ -42,6 +48,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    }
+    
+    func makeVisible( _rootView: UIViewController) {
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        
+        self.window?.rootViewController = _rootView
+        
+        self.window?.makeKeyAndVisible()
+        self.window?.isUserInteractionEnabled = true
     }
 
 
