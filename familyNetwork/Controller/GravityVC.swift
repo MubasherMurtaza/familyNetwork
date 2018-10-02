@@ -15,6 +15,9 @@ class GravityVC: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    @IBAction func MenuAction(_ sender: UIButton) {
+        self.navigationController?.popViewController(animated: true)
+    }
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return .lightContent
     }

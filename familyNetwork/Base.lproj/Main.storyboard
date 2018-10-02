@@ -1186,6 +1186,9 @@
                                             <constraint firstAttribute="width" constant="34" id="Y2z-Lz-fa3"/>
                                         </constraints>
                                         <state key="normal" image="menu-Btn"/>
+                                        <connections>
+                                            <action selector="MenuAction:" destination="lka-lt-4OS" eventType="touchUpInside" id="ef4-bM-SnR"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Private Familay Network " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EpS-Hf-mtr">
                                         <rect key="frame" x="105" y="55" width="164.66666666666663" height="14.333333333333336"/>

@@ -9,14 +9,17 @@
 import UIKit
 import IQKeyboardManagerSwift
 import SideMenu
+import AtomSDK
 
 let app = UIApplication.shared.delegate as! AppDelegate
 let storyBoardMain = UIStoryboard(name: "Main", bundle: nil)
+var ATOM_SDK_SECRET_KEY = ""
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var secretKey: String!
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
@@ -24,6 +27,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         IQKeyboardManager.shared.enable = true
         SideMenuManager.default.menuPresentMode = .menuSlideIn
+        
+        // AtomManager instance with Secret key
+        
+        AtomManager.sharedInstance(withSecretKey: "")
+        self.secretKey = ATOM_SDK_SECRET_KEY;
         
         return true
     }

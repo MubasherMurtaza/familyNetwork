@@ -15,12 +15,29 @@
 		19237ABD215A71710049CBF8 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19237ABC215A71710049CBF8 /* LoginVC.swift */; };
 		19446B702160FBDB009379D9 /* GravityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19446B6F2160FBDB009379D9 /* GravityVC.swift */; };
 		19446B722160FC71009379D9 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19446B712160FC71009379D9 /* MenuVC.swift */; };
+		1946C6312163537100758128 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1946C6302163537100758128 /* NetworkExtension.framework */; };
+		1946C6342163589000758128 /* AtomSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1946C6332163589000758128 /* AtomSDK.framework */; };
+		1946C6352163589000758128 /* AtomSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1946C6332163589000758128 /* AtomSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		19958C1F215F37F800953474 /* LocationTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19958C1E215F37F800953474 /* LocationTabVC.swift */; };
 		19C833572161F8CC00E1587B /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C833562161F8CC00E1587B /* SettingVC.swift */; };
 		19DFE30A215B81F600D3F068 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DFE309215B81F600D3F068 /* UIHelper.swift */; };
 		19F135AE215CBD2900D97CE4 /* ForgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F135AD215CBD2900D97CE4 /* ForgetViewController.swift */; };
 		5CFB36ADA88C4311216FC844 /* Pods_familyNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7779D5AB115352DF7BE3B98 /* Pods_familyNetwork.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1946C6362163589000758128 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1946C6352163589000758128 /* AtomSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		190C51F9215A178B004FAE13 /* familyNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = familyNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,6 +50,9 @@
 		19237ABC215A71710049CBF8 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginVC.swift; path = Controller/LoginVC.swift; sourceTree = "<group>"; };
 		19446B6F2160FBDB009379D9 /* GravityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GravityVC.swift; path = Controller/GravityVC.swift; sourceTree = "<group>"; };
 		19446B712160FC71009379D9 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MenuVC.swift; path = Controller/MenuVC.swift; sourceTree = "<group>"; };
+		1946C6302163537100758128 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		1946C6322163537100758128 /* familyNetwork.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = familyNetwork.entitlements; sourceTree = "<group>"; };
+		1946C6332163589000758128 /* AtomSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AtomSDK.framework; path = familyNetwork/AtomSDK/AtomSDK.framework; sourceTree = "<group>"; };
 		19958C1E215F37F800953474 /* LocationTabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocationTabVC.swift; path = Controller/LocationTabVC.swift; sourceTree = "<group>"; };
 		19C833562161F8CC00E1587B /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingVC.swift; path = Controller/SettingVC.swift; sourceTree = "<group>"; };
 		19DFE309215B81F600D3F068 /* UIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIHelper.swift; path = Utilities/UIHelper.swift; sourceTree = "<group>"; };
@@ -48,6 +68,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CFB36ADA88C4311216FC844 /* Pods_familyNetwork.framework in Frameworks */,
+				1946C6312163537100758128 /* NetworkExtension.framework in Frameworks */,
+				1946C6342163589000758128 /* AtomSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +79,7 @@
 		07E5B3A6825D7FD0E99E7C0C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1946C6302163537100758128 /* NetworkExtension.framework */,
 				C7779D5AB115352DF7BE3B98 /* Pods_familyNetwork.framework */,
 			);
 			name = Frameworks;
@@ -65,6 +88,7 @@
 		190C51F0215A178B004FAE13 = {
 			isa = PBXGroup;
 			children = (
+				1946C6332163589000758128 /* AtomSDK.framework */,
 				190C51FB215A178B004FAE13 /* familyNetwork */,
 				190C51FA215A178B004FAE13 /* Products */,
 				E1C806C5970EFFF15F99469A /* Pods */,
@@ -83,6 +107,7 @@
 		190C51FB215A178B004FAE13 /* familyNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				1946C6322163537100758128 /* familyNetwork.entitlements */,
 				191BE0E6215A489E0041A74D /* Utilties */,
 				190C51FC215A178B004FAE13 /* AppDelegate.swift */,
 				190C520E215A474C004FAE13 /* Controller */,
@@ -137,6 +162,7 @@
 				190C51F6215A178B004FAE13 /* Frameworks */,
 				190C51F7215A178B004FAE13 /* Resources */,
 				5589C29E236E1D7A46EEA8E0 /* [CP] Embed Pods Frameworks */,
+				1946C6362163589000758128 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -159,6 +185,11 @@
 				TargetAttributes = {
 					190C51F8215A178B004FAE13 = {
 						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.VPNLite = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -392,8 +423,13 @@
 			baseConfigurationReference = E295F803F51551015A345984 /* Pods-familyNetwork.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = familyNetwork/familyNetwork.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RF4DTY5F48;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/familyNetwork/AtomSDK",
+				);
 				INFOPLIST_FILE = familyNetwork/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -411,8 +447,13 @@
 			baseConfigurationReference = A3C4681A66E7A8378C460D1A /* Pods-familyNetwork.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = familyNetwork/familyNetwork.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RF4DTY5F48;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/familyNetwork/AtomSDK",
+				);
 				INFOPLIST_FILE = familyNetwork/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
