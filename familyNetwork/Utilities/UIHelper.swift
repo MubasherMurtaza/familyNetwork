@@ -69,3 +69,9 @@ struct SystemVersion {
                                                   options: NSString.CompareOptions.numeric) != ComparisonResult.orderedDescending
   }
 }
+
+struct LoadConstraint {
+    static func constraint(_ languageFormat: String, views: Dictionary<String, Any>) {
+        NSLayoutConstraint.activate(NSLayoutConstraint.constraints(withVisualFormat: (languageFormat), options: [], metrics: nil, views: views))
+    }
+}

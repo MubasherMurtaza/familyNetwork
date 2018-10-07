@@ -11,6 +11,10 @@ import UIKit
 
 class MenuVC: UIViewController {
 
+    @IBOutlet weak var detailModes: UIStackView!
+    @IBOutlet weak var ozoneContioner: UIView!
+    @IBOutlet weak var hdStreamContioner: UIView!
+    
     @IBOutlet weak var selectedMode: UIImageView!
     
     var mode: Int = 0
@@ -21,6 +25,17 @@ class MenuVC: UIViewController {
 
         // Do any additional setup after loading the view.
         selectedMode.image = modeImages[app.selectedMode]
+        switch app.selectedMode {
+        case 3:
+            detailModes.isHidden = false
+            ozoneContioner.isHidden = true; hdStreamContioner.isHidden = true
+        case 2:
+            ozoneContioner.isHidden = false
+            detailModes.isHidden = true; hdStreamContioner.isHidden = true
+        default:
+            hdStreamContioner.isHidden = false
+            ozoneContioner.isHidden = true; detailModes.isHidden = true
+        }
     }
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
@@ -28,7 +43,22 @@ class MenuVC: UIViewController {
     }
     
     @IBAction func loadViewAction(_ sender: UIButton) {
+        
+    }
+    
+    @IBAction func segueAction(_ sender: UIButton) {
         dismiss(animated: true, completion: nil)
+        
+        switch sender.tag {
+        case 11:
+            performSegue(withIdentifier: "ProtectionVC", sender: self)
+        case 12, 14, 22, 31:
+            performSegue(withIdentifier: "GravityVC", sender: self)
+        case 21:
+            performSegue(withIdentifier: "OzoneVC", sender: self)
+        default:
+            performSegue(withIdentifier: "SettingVC", sender: self)
+        }
     }
     
     // MARK: - Portocoal
@@ -41,8 +71,7 @@ class MenuVC: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "SelectMode" {
-            let modeView: ModeVC = segue.destination as! ModeVC
-            modeView.selectedMode = 1
+            
         }
     }
 

@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     var secretKey: String!
     
-    var selectedMode: Int = 0
+    var selectedMode: Int!
     var ATOM_SDK_SECRET_KEY = ""
 
 

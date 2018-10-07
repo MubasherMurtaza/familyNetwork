@@ -20,6 +20,7 @@
 		1946C6352163589000758128 /* AtomSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1946C6332163589000758128 /* AtomSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		19675EFC2164F09C00CAE25B /* ProtectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19675EFB2164F09C00CAE25B /* ProtectionVC.swift */; };
 		19675EFE2165104B00CAE25B /* ModeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19675EFD2165104B00CAE25B /* ModeVC.swift */; };
+		197224902169BB1A0030BCF9 /* OzoneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1972248F2169BB1A0030BCF9 /* OzoneVC.swift */; };
 		19958C1F215F37F800953474 /* LocationTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19958C1E215F37F800953474 /* LocationTabVC.swift */; };
 		19C833572161F8CC00E1587B /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C833562161F8CC00E1587B /* SettingVC.swift */; };
 		19DFE30A215B81F600D3F068 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DFE309215B81F600D3F068 /* UIHelper.swift */; };
@@ -57,6 +58,7 @@
 		1946C6332163589000758128 /* AtomSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AtomSDK.framework; path = familyNetwork/AtomSDK/AtomSDK.framework; sourceTree = "<group>"; };
 		19675EFB2164F09C00CAE25B /* ProtectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProtectionVC.swift; path = Controller/ProtectionVC.swift; sourceTree = "<group>"; };
 		19675EFD2165104B00CAE25B /* ModeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ModeVC.swift; path = Controller/ModeVC.swift; sourceTree = "<group>"; };
+		1972248F2169BB1A0030BCF9 /* OzoneVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OzoneVC.swift; path = Controller/OzoneVC.swift; sourceTree = "<group>"; };
 		19958C1E215F37F800953474 /* LocationTabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocationTabVC.swift; path = Controller/LocationTabVC.swift; sourceTree = "<group>"; };
 		19C833562161F8CC00E1587B /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingVC.swift; path = Controller/SettingVC.swift; sourceTree = "<group>"; };
 		19DFE309215B81F600D3F068 /* UIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIHelper.swift; path = Utilities/UIHelper.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 				19C833562161F8CC00E1587B /* SettingVC.swift */,
 				19675EFB2164F09C00CAE25B /* ProtectionVC.swift */,
 				19675EFD2165104B00CAE25B /* ModeVC.swift */,
+				1972248F2169BB1A0030BCF9 /* OzoneVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				197224902169BB1A0030BCF9 /* OzoneVC.swift in Sources */,
 				190C51FF215A178B004FAE13 /* ViewController.swift in Sources */,
 				19C833572161F8CC00E1587B /* SettingVC.swift in Sources */,
 				190C51FD215A178B004FAE13 /* AppDelegate.swift in Sources */,
