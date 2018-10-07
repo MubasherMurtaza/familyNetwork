@@ -46,6 +46,7 @@ class ModeVC: UIViewController {
             animationTrueSign.isActive = false
             self.view.layoutIfNeeded()
         }
+        //Navigation...
         performSegue(withIdentifier: "DedicatedIP", sender: self)
     }
     
