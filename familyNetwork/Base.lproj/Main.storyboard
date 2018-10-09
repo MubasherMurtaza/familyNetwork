@@ -2623,7 +2623,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="BUv-tL-WHZ"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Quik Connect" image="QuikConnectTab" id="6Jt-g0-Mjk"/>
+                    <tabBarItem key="tabBarItem" title="Quik Connect" image="QuikConnectTab" selectedImage="QuikConnectTab" id="6Jt-g0-Mjk"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PmA-r6-Nji" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2819,7 +2819,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="LRW-Gi-Lfy"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Channels" image="channels" id="vtV-nb-QOj"/>
+                    <tabBarItem key="tabBarItem" title="Channels" image="channels" selectedImage="channels" id="vtV-nb-QOj"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CX0-aG-6wL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -3076,7 +3076,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="iwN-JR-L2R"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Locations" image="locationTab" id="htj-Py-uCm"/>
+                    <tabBarItem key="tabBarItem" title="Locations" image="locationTab" selectedImage="locationTab" id="htj-Py-uCm"/>
                     <connections>
                         <outlet property="btnCities" destination="V79-8E-284" id="CCK-aD-lQc"/>
                         <outlet property="btnCountries" destination="I30-vQ-GgO" id="3A5-11-f1Q"/>
@@ -3095,7 +3095,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.070588235294117646" green="0.11764705882352941" blue="0.21176470588235294" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" red="0.31372549020000001" green="0.73725490199999999" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="NsJ-WH-75y" kind="relationship" relationship="viewControllers" id="rLv-F1-fnc"/>
@@ -3219,7 +3219,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.047058823530000002" green="0.062745098040000002" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="NsJ-WH-75y" kind="relationship" relationship="viewControllers" id="OAY-XE-QPK"/>
@@ -3329,10 +3329,10 @@
         <image name="viewForget" width="522" height="862"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="mB3-Ka-2RJ"/>
+        <segue reference="2X2-MM-qOR"/>
         <segue reference="OAY-XE-QPK"/>
         <segue reference="GUZ-l4-5Ce"/>
-        <segue reference="3ZD-XX-RMJ"/>
+        <segue reference="EVg-au-yo4"/>
         <segue reference="bhV-Ug-6ni"/>
     </inferredMetricsTieBreakers>
 </document>

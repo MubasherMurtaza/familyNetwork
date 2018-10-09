@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var secretKey: String!
     
     var selectedMode: Int!
-    var ATOM_SDK_SECRET_KEY = ""
+    var ATOM_SDK_SECRET_KEY = "b12e0405d803ba771c46bb94be29a0a59f976b06"
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
@@ -33,7 +33,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // AtomManager instance with Secret key
         
-        AtomManager.sharedInstance(withSecretKey: "")
+        AtomManager.sharedInstance(withSecretKey: ATOM_SDK_SECRET_KEY)
         self.secretKey = ATOM_SDK_SECRET_KEY;
         
         return true
