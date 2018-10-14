@@ -14,6 +14,7 @@ class AboutUsVC: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        print("Update Done")
     }
     @IBAction func settingAction(_ sender: UIButton) {
         self.navigationController?.popViewController(animated: true)
