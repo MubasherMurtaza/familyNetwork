@@ -27,7 +27,10 @@ class SettingVC: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+    @IBAction func logOutBtn(_ sender: UIButton) {
+        let controller = self.navigationController?.viewControllers[1]
+        self.navigationController?.popToViewController(controller!, animated: true)
+    }
 
     /*
     // MARK: - Navigation
