@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1901A514217493C800FCC910 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1901A513217493C800FCC910 /* NetworkExtension.framework */; };
 		190C51FD215A178B004FAE13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C51FC215A178B004FAE13 /* AppDelegate.swift */; };
 		190C51FF215A178B004FAE13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190C51FE215A178B004FAE13 /* ViewController.swift */; };
 		190C5202215A178B004FAE13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 190C5200215A178B004FAE13 /* Main.storyboard */; };
@@ -18,7 +19,6 @@
 		19237ABD215A71710049CBF8 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19237ABC215A71710049CBF8 /* LoginVC.swift */; };
 		19446B702160FBDB009379D9 /* GravityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19446B6F2160FBDB009379D9 /* GravityVC.swift */; };
 		19446B722160FC71009379D9 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19446B712160FC71009379D9 /* MenuVC.swift */; };
-		1946C6312163537100758128 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1946C6302163537100758128 /* NetworkExtension.framework */; };
 		1946C6342163589000758128 /* AtomSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1946C6332163589000758128 /* AtomSDK.framework */; };
 		1946C6352163589000758128 /* AtomSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1946C6332163589000758128 /* AtomSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1954757D21733BB700C5FBA1 /* SupportTicketVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1954757C21733BB700C5FBA1 /* SupportTicketVC.swift */; };
@@ -50,6 +50,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1901A513217493C800FCC910 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
 		190C51F9215A178B004FAE13 /* familyNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = familyNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		190C51FC215A178B004FAE13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		190C51FE215A178B004FAE13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,7 +64,6 @@
 		19237ABC215A71710049CBF8 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginVC.swift; path = Controller/LoginVC.swift; sourceTree = "<group>"; };
 		19446B6F2160FBDB009379D9 /* GravityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GravityVC.swift; path = Controller/GravityVC.swift; sourceTree = "<group>"; };
 		19446B712160FC71009379D9 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MenuVC.swift; path = Controller/MenuVC.swift; sourceTree = "<group>"; };
-		1946C6302163537100758128 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
 		1946C6322163537100758128 /* familyNetwork.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = familyNetwork.entitlements; sourceTree = "<group>"; };
 		1946C6332163589000758128 /* AtomSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AtomSDK.framework; path = familyNetwork/AtomSDK/AtomSDK.framework; sourceTree = "<group>"; };
 		1954757C21733BB700C5FBA1 /* SupportTicketVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SupportTicketVC.swift; path = Controller/AppSettings/SupportTicketVC.swift; sourceTree = "<group>"; };
@@ -88,7 +88,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CFB36ADA88C4311216FC844 /* Pods_familyNetwork.framework in Frameworks */,
-				1946C6312163537100758128 /* NetworkExtension.framework in Frameworks */,
+				1901A514217493C800FCC910 /* NetworkExtension.framework in Frameworks */,
 				1946C6342163589000758128 /* AtomSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -99,7 +99,7 @@
 		07E5B3A6825D7FD0E99E7C0C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1946C6302163537100758128 /* NetworkExtension.framework */,
+				1901A513217493C800FCC910 /* NetworkExtension.framework */,
 				C7779D5AB115352DF7BE3B98 /* Pods_familyNetwork.framework */,
 			);
 			name = Frameworks;
