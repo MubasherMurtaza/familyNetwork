@@ -52,10 +52,12 @@ class MenuVC: UIViewController {
         switch sender.tag {
         case 11:
             performSegue(withIdentifier: "ProtectionVC", sender: self)
-        case 12, 14, 22, 31:
+        case 12, 22, 31:
             performSegue(withIdentifier: "GravityVC", sender: self)
         case 21:
             performSegue(withIdentifier: "OzoneVC", sender: self)
+        case 14,24, 33:
+            performSegue(withIdentifier: "FAQVC", sender: self)
         default:
             performSegue(withIdentifier: "SettingVC", sender: self)
         }

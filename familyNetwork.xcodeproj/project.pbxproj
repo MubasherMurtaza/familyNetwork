@@ -28,7 +28,17 @@
 		197224902169BB1A0030BCF9 /* OzoneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1972248F2169BB1A0030BCF9 /* OzoneVC.swift */; };
 		19958C1F215F37F800953474 /* LocationTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19958C1E215F37F800953474 /* LocationTabVC.swift */; };
 		199FE0562170EAE6008D59B2 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199FE0552170EAE6008D59B2 /* ProfileVC.swift */; };
+		19B986AA2179E11D00D514BC /* QuikConnectVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B986A92179E11D00D514BC /* QuikConnectVC.swift */; };
+		19B986B42179E6F600D514BC /* Cabin-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 19B986AC2179E6F400D514BC /* Cabin-Italic.otf */; };
+		19B986B52179E6F600D514BC /* Cabin-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 19B986AD2179E6F400D514BC /* Cabin-Medium.otf */; };
+		19B986B62179E6F600D514BC /* Cabin-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 19B986AE2179E6F400D514BC /* Cabin-Bold.otf */; };
+		19B986B72179E6F600D514BC /* Cabin-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 19B986AF2179E6F500D514BC /* Cabin-BoldItalic.otf */; };
+		19B986B82179E6F600D514BC /* Cabin-SemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 19B986B02179E6F500D514BC /* Cabin-SemiBoldItalic.otf */; };
+		19B986B92179E6F600D514BC /* Cabin-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 19B986B12179E6F500D514BC /* Cabin-Regular.otf */; };
+		19B986BA2179E6F600D514BC /* Cabin-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 19B986B22179E6F500D514BC /* Cabin-SemiBold.otf */; };
+		19B986BB2179E6F600D514BC /* Cabin-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 19B986B32179E6F500D514BC /* Cabin-MediumItalic.otf */; };
 		19C833572161F8CC00E1587B /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C833562161F8CC00E1587B /* SettingVC.swift */; };
+		19CC538E21773E7100622266 /* PFNVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CC538D21773E7100622266 /* PFNVC.swift */; };
 		19D006DD2171AA1300BF0D9A /* ProtocolVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D006DC2171AA1300BF0D9A /* ProtocolVC.swift */; };
 		19DFE30A215B81F600D3F068 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DFE309215B81F600D3F068 /* UIHelper.swift */; };
 		19F135AE215CBD2900D97CE4 /* ForgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F135AD215CBD2900D97CE4 /* ForgetViewController.swift */; };
@@ -73,7 +83,17 @@
 		1972248F2169BB1A0030BCF9 /* OzoneVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OzoneVC.swift; path = Controller/OzoneVC.swift; sourceTree = "<group>"; };
 		19958C1E215F37F800953474 /* LocationTabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocationTabVC.swift; path = Controller/LocationTabVC.swift; sourceTree = "<group>"; };
 		199FE0552170EAE6008D59B2 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileVC.swift; path = Controller/AppSettings/ProfileVC.swift; sourceTree = "<group>"; };
+		19B986A92179E11D00D514BC /* QuikConnectVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QuikConnectVC.swift; path = Controller/QuikConnectVC.swift; sourceTree = "<group>"; };
+		19B986AC2179E6F400D514BC /* Cabin-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cabin-Italic.otf"; path = "FontCustom/Cabin-Italic.otf"; sourceTree = "<group>"; };
+		19B986AD2179E6F400D514BC /* Cabin-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cabin-Medium.otf"; path = "FontCustom/Cabin-Medium.otf"; sourceTree = "<group>"; };
+		19B986AE2179E6F400D514BC /* Cabin-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cabin-Bold.otf"; path = "FontCustom/Cabin-Bold.otf"; sourceTree = "<group>"; };
+		19B986AF2179E6F500D514BC /* Cabin-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cabin-BoldItalic.otf"; path = "FontCustom/Cabin-BoldItalic.otf"; sourceTree = "<group>"; };
+		19B986B02179E6F500D514BC /* Cabin-SemiBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cabin-SemiBoldItalic.otf"; path = "FontCustom/Cabin-SemiBoldItalic.otf"; sourceTree = "<group>"; };
+		19B986B12179E6F500D514BC /* Cabin-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cabin-Regular.otf"; path = "FontCustom/Cabin-Regular.otf"; sourceTree = "<group>"; };
+		19B986B22179E6F500D514BC /* Cabin-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cabin-SemiBold.otf"; path = "FontCustom/Cabin-SemiBold.otf"; sourceTree = "<group>"; };
+		19B986B32179E6F500D514BC /* Cabin-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cabin-MediumItalic.otf"; path = "FontCustom/Cabin-MediumItalic.otf"; sourceTree = "<group>"; };
 		19C833562161F8CC00E1587B /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingVC.swift; path = Controller/SettingVC.swift; sourceTree = "<group>"; };
+		19CC538D21773E7100622266 /* PFNVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PFNVC.swift; path = Controller/PFNVC.swift; sourceTree = "<group>"; };
 		19D006DC2171AA1300BF0D9A /* ProtocolVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProtocolVC.swift; path = Controller/AppSettings/ProtocolVC.swift; sourceTree = "<group>"; };
 		19DFE309215B81F600D3F068 /* UIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIHelper.swift; path = Utilities/UIHelper.swift; sourceTree = "<group>"; };
 		19F135AD215CBD2900D97CE4 /* ForgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ForgetViewController.swift; path = Controller/ForgetViewController.swift; sourceTree = "<group>"; };
@@ -142,6 +162,7 @@
 		190C520E215A474C004FAE13 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				19B986AB2179E65100D514BC /* FontCustom */,
 				190C51FE215A178B004FAE13 /* ViewController.swift */,
 				19237ABC215A71710049CBF8 /* LoginVC.swift */,
 				19F135AD215CBD2900D97CE4 /* ForgetViewController.swift */,
@@ -153,6 +174,8 @@
 				19675EFB2164F09C00CAE25B /* ProtectionVC.swift */,
 				19675EFD2165104B00CAE25B /* ModeVC.swift */,
 				1972248F2169BB1A0030BCF9 /* OzoneVC.swift */,
+				19CC538D21773E7100622266 /* PFNVC.swift */,
+				19B986A92179E11D00D514BC /* QuikConnectVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -177,6 +200,21 @@
 				1954757E2173432F00C5FBA1 /* AboutUsVC.swift */,
 			);
 			name = AppSettings;
+			sourceTree = "<group>";
+		};
+		19B986AB2179E65100D514BC /* FontCustom */ = {
+			isa = PBXGroup;
+			children = (
+				19B986AE2179E6F400D514BC /* Cabin-Bold.otf */,
+				19B986AF2179E6F500D514BC /* Cabin-BoldItalic.otf */,
+				19B986AC2179E6F400D514BC /* Cabin-Italic.otf */,
+				19B986AD2179E6F400D514BC /* Cabin-Medium.otf */,
+				19B986B32179E6F500D514BC /* Cabin-MediumItalic.otf */,
+				19B986B12179E6F500D514BC /* Cabin-Regular.otf */,
+				19B986B22179E6F500D514BC /* Cabin-SemiBold.otf */,
+				19B986B02179E6F500D514BC /* Cabin-SemiBoldItalic.otf */,
+			);
+			name = FontCustom;
 			sourceTree = "<group>";
 		};
 		E1C806C5970EFFF15F99469A /* Pods */ = {
@@ -254,9 +292,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19B986B62179E6F600D514BC /* Cabin-Bold.otf in Resources */,
+				19B986B72179E6F600D514BC /* Cabin-BoldItalic.otf in Resources */,
 				190C5207215A178D004FAE13 /* LaunchScreen.storyboard in Resources */,
 				190C5204215A178D004FAE13 /* Assets.xcassets in Resources */,
 				190C5202215A178B004FAE13 /* Main.storyboard in Resources */,
+				19B986B92179E6F600D514BC /* Cabin-Regular.otf in Resources */,
+				19B986BA2179E6F600D514BC /* Cabin-SemiBold.otf in Resources */,
+				19B986BB2179E6F600D514BC /* Cabin-MediumItalic.otf in Resources */,
+				19B986B52179E6F600D514BC /* Cabin-Medium.otf in Resources */,
+				19B986B82179E6F600D514BC /* Cabin-SemiBoldItalic.otf in Resources */,
+				19B986B42179E6F600D514BC /* Cabin-Italic.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,7 +356,9 @@
 			files = (
 				197224902169BB1A0030BCF9 /* OzoneVC.swift in Sources */,
 				190C51FF215A178B004FAE13 /* ViewController.swift in Sources */,
+				19B986AA2179E11D00D514BC /* QuikConnectVC.swift in Sources */,
 				19C833572161F8CC00E1587B /* SettingVC.swift in Sources */,
+				19CC538E21773E7100622266 /* PFNVC.swift in Sources */,
 				190C51FD215A178B004FAE13 /* AppDelegate.swift in Sources */,
 				192039CD217231F800C741A6 /* TroubleshootVC.swift in Sources */,
 				19F135AE215CBD2900D97CE4 /* ForgetViewController.swift in Sources */,

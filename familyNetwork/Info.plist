@@ -48,5 +48,16 @@
 		<key>NSExceptionDomains</key>
 		<dict/>
 	</dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Cabin-Bold.otf</string>
+		<string>Cabin-BoldItalic.otf</string>
+		<string>Cabin-Italic.otf</string>
+		<string>Cabin-Medium.otf</string>
+		<string>Cabin-MediumItalic.otf</string>
+		<string>Cabin-Regular.otf</string>
+		<string>Cabin-SemiBold.otf</string>
+		<string>Cabin-SemiBoldItalic.otf</string>
+	</array>
 </dict>
 </plist>
