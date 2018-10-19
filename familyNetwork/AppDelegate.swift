@@ -64,7 +64,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func makeVisible( _rootView: UIViewController) {
         self.window = UIWindow(frame: UIScreen.main.bounds)
-        
         self.window?.rootViewController = _rootView
         
         self.window?.makeKeyAndVisible()

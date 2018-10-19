@@ -14,7 +14,7 @@ class ModeVC: UIViewController {
     
     @IBOutlet var trueSgn: [UIImageView]!
     @IBOutlet var modeLbl: [UILabel]!
-    @IBOutlet weak var pFNBackBtn: UIView!
+    @IBOutlet weak var PFNBackView: UIView!
     
     @IBOutlet weak var animationTrueSign: NSLayoutConstraint!
     
@@ -25,9 +25,9 @@ class ModeVC: UIViewController {
         if app.selectedMode != nil{
             let views: [String: Any] = ["modeTxt": modeLbl[app.selectedMode], "trueSign": trueSgn[app.selectedMode]]
             let format = "H:[modeTxt]-1-[trueSign]"
-            LoadConstraint.constraint(format, views: views)
             trueSgn[app.selectedMode].isHidden = false
-            pFNBackBtn.isHidden = false
+            LoadConstraint.constraint(format, views: views)
+            PFNBackView.isHidden = false
         }
     }
     override var preferredStatusBarStyle: UIStatusBarStyle {
