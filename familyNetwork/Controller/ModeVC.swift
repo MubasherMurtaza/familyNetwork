@@ -52,12 +52,6 @@ class ModeVC: UIViewController {
     
     @IBAction func detailModes(_ sender: UIButton) {
         app.selectedMode = sender.tag
-        
-//            let views: [String: Any] = ["modeTxt": modeLbl[sender.tag], "trueSign": trueSgn[sender.tag]]
-//            let format = "H:[modeTxt]-1-[trueSign]"
-//            LoadConstraint.constraint(format, views: views)
-//            trueSgn[sender.tag].isHidden = false
-        
         performSegue(withIdentifier: "deatilSegu", sender: self)
         
     }
@@ -67,6 +61,15 @@ class ModeVC: UIViewController {
         performSegue(withIdentifier: "SecurityFileSegu", sender: self)
     }
     
+    func layOutUpdate() {
+        if app.selectedMode != nil{
+            let views: [String: Any] = ["modeTxt": modeLbl[app.selectedMode], "trueSign": trueSgn[app.selectedMode]]
+            let format = "H:[modeTxt]-1-[trueSign]"
+            trueSgn[app.selectedMode].isHidden = false
+            LoadConstraint.constraint(format, views: views)
+            PFNBackView.isHidden = false
+        }
+    }
     // MARK: - Navigation
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

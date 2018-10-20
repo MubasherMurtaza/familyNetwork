@@ -28,6 +28,7 @@ class SettingVC: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     @IBAction func logOutBtn(_ sender: UIButton) {
+        app.selectedMode = nil
         let controller = self.navigationController?.viewControllers[1]
         self.navigationController?.popToViewController(controller!, animated: true)
     }
