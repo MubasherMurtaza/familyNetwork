@@ -53,10 +53,10 @@ class ModeVC: UIViewController {
     @IBAction func detailModes(_ sender: UIButton) {
         app.selectedMode = sender.tag
         
-            let views: [String: Any] = ["modeTxt": modeLbl[sender.tag], "trueSign": trueSgn[sender.tag]]
-            let format = "H:[modeTxt]-1-[trueSign]"
-            LoadConstraint.constraint(format, views: views)
-            trueSgn[sender.tag].isHidden = false
+//            let views: [String: Any] = ["modeTxt": modeLbl[sender.tag], "trueSign": trueSgn[sender.tag]]
+//            let format = "H:[modeTxt]-1-[trueSign]"
+//            LoadConstraint.constraint(format, views: views)
+//            trueSgn[sender.tag].isHidden = false
         
         performSegue(withIdentifier: "deatilSegu", sender: self)
         

@@ -37,8 +37,13 @@
 		19B986B92179E6F600D514BC /* Cabin-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 19B986B12179E6F500D514BC /* Cabin-Regular.otf */; };
 		19B986BA2179E6F600D514BC /* Cabin-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 19B986B22179E6F500D514BC /* Cabin-SemiBold.otf */; };
 		19B986BB2179E6F600D514BC /* Cabin-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 19B986B32179E6F500D514BC /* Cabin-MediumItalic.otf */; };
+		19C80533217B09C40007D71E /* URLAnsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C80532217B09C40007D71E /* URLAnsVC.swift */; };
+		19C80535217B0DE80007D71E /* ToolsAnsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C80534217B0DE80007D71E /* ToolsAnsVC.swift */; };
+		19C80537217B0F990007D71E /* ReferralsAnsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C80536217B0F990007D71E /* ReferralsAnsVC.swift */; };
+		19C80539217B10F80007D71E /* BonUsesAnsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C80538217B10F80007D71E /* BonUsesAnsVC.swift */; };
+		19C8053B217B12890007D71E /* PromotionAnsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C8053A217B12890007D71E /* PromotionAnsVC.swift */; };
 		19C833572161F8CC00E1587B /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C833562161F8CC00E1587B /* SettingVC.swift */; };
-		19CC538E21773E7100622266 /* PFNVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CC538D21773E7100622266 /* PFNVC.swift */; };
+		19CC538E21773E7100622266 /* FAQVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CC538D21773E7100622266 /* FAQVC.swift */; };
 		19D006DD2171AA1300BF0D9A /* ProtocolVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D006DC2171AA1300BF0D9A /* ProtocolVC.swift */; };
 		19DFE30A215B81F600D3F068 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DFE309215B81F600D3F068 /* UIHelper.swift */; };
 		19F135AE215CBD2900D97CE4 /* ForgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F135AD215CBD2900D97CE4 /* ForgetViewController.swift */; };
@@ -92,8 +97,13 @@
 		19B986B12179E6F500D514BC /* Cabin-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cabin-Regular.otf"; path = "FontCustom/Cabin-Regular.otf"; sourceTree = "<group>"; };
 		19B986B22179E6F500D514BC /* Cabin-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cabin-SemiBold.otf"; path = "FontCustom/Cabin-SemiBold.otf"; sourceTree = "<group>"; };
 		19B986B32179E6F500D514BC /* Cabin-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cabin-MediumItalic.otf"; path = "FontCustom/Cabin-MediumItalic.otf"; sourceTree = "<group>"; };
+		19C80532217B09C40007D71E /* URLAnsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = URLAnsVC.swift; path = Controller/FAQAnswers/URLAnsVC.swift; sourceTree = "<group>"; };
+		19C80534217B0DE80007D71E /* ToolsAnsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ToolsAnsVC.swift; path = Controller/FAQAnswers/ToolsAnsVC.swift; sourceTree = "<group>"; };
+		19C80536217B0F990007D71E /* ReferralsAnsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ReferralsAnsVC.swift; path = Controller/FAQAnswers/ReferralsAnsVC.swift; sourceTree = "<group>"; };
+		19C80538217B10F80007D71E /* BonUsesAnsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BonUsesAnsVC.swift; path = Controller/FAQAnswers/BonUsesAnsVC.swift; sourceTree = "<group>"; };
+		19C8053A217B12890007D71E /* PromotionAnsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PromotionAnsVC.swift; path = Controller/FAQAnswers/PromotionAnsVC.swift; sourceTree = "<group>"; };
 		19C833562161F8CC00E1587B /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingVC.swift; path = Controller/SettingVC.swift; sourceTree = "<group>"; };
-		19CC538D21773E7100622266 /* PFNVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PFNVC.swift; path = Controller/PFNVC.swift; sourceTree = "<group>"; };
+		19CC538D21773E7100622266 /* FAQVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FAQVC.swift; path = Controller/FAQVC.swift; sourceTree = "<group>"; };
 		19D006DC2171AA1300BF0D9A /* ProtocolVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProtocolVC.swift; path = Controller/AppSettings/ProtocolVC.swift; sourceTree = "<group>"; };
 		19DFE309215B81F600D3F068 /* UIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIHelper.swift; path = Utilities/UIHelper.swift; sourceTree = "<group>"; };
 		19F135AD215CBD2900D97CE4 /* ForgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ForgetViewController.swift; path = Controller/ForgetViewController.swift; sourceTree = "<group>"; };
@@ -174,7 +184,8 @@
 				19675EFB2164F09C00CAE25B /* ProtectionVC.swift */,
 				19675EFD2165104B00CAE25B /* ModeVC.swift */,
 				1972248F2169BB1A0030BCF9 /* OzoneVC.swift */,
-				19CC538D21773E7100622266 /* PFNVC.swift */,
+				19CC538D21773E7100622266 /* FAQVC.swift */,
+				19C80531217B095A0007D71E /* FAQAnswers */,
 				19B986A92179E11D00D514BC /* QuikConnectVC.swift */,
 			);
 			name = Controller;
@@ -215,6 +226,18 @@
 				19B986B02179E6F500D514BC /* Cabin-SemiBoldItalic.otf */,
 			);
 			name = FontCustom;
+			sourceTree = "<group>";
+		};
+		19C80531217B095A0007D71E /* FAQAnswers */ = {
+			isa = PBXGroup;
+			children = (
+				19C80532217B09C40007D71E /* URLAnsVC.swift */,
+				19C80534217B0DE80007D71E /* ToolsAnsVC.swift */,
+				19C80536217B0F990007D71E /* ReferralsAnsVC.swift */,
+				19C80538217B10F80007D71E /* BonUsesAnsVC.swift */,
+				19C8053A217B12890007D71E /* PromotionAnsVC.swift */,
+			);
+			name = FAQAnswers;
 			sourceTree = "<group>";
 		};
 		E1C806C5970EFFF15F99469A /* Pods */ = {
@@ -357,10 +380,14 @@
 				197224902169BB1A0030BCF9 /* OzoneVC.swift in Sources */,
 				190C51FF215A178B004FAE13 /* ViewController.swift in Sources */,
 				19B986AA2179E11D00D514BC /* QuikConnectVC.swift in Sources */,
+				19C80533217B09C40007D71E /* URLAnsVC.swift in Sources */,
 				19C833572161F8CC00E1587B /* SettingVC.swift in Sources */,
-				19CC538E21773E7100622266 /* PFNVC.swift in Sources */,
+				19CC538E21773E7100622266 /* FAQVC.swift in Sources */,
 				190C51FD215A178B004FAE13 /* AppDelegate.swift in Sources */,
 				192039CD217231F800C741A6 /* TroubleshootVC.swift in Sources */,
+				19C80537217B0F990007D71E /* ReferralsAnsVC.swift in Sources */,
+				19C8053B217B12890007D71E /* PromotionAnsVC.swift in Sources */,
+				19C80539217B10F80007D71E /* BonUsesAnsVC.swift in Sources */,
 				19F135AE215CBD2900D97CE4 /* ForgetViewController.swift in Sources */,
 				1954757D21733BB700C5FBA1 /* SupportTicketVC.swift in Sources */,
 				19446B702160FBDB009379D9 /* GravityVC.swift in Sources */,
@@ -371,6 +398,7 @@
 				199FE0562170EAE6008D59B2 /* ProfileVC.swift in Sources */,
 				19446B722160FC71009379D9 /* MenuVC.swift in Sources */,
 				19DFE30A215B81F600D3F068 /* UIHelper.swift in Sources */,
+				19C80535217B0DE80007D71E /* ToolsAnsVC.swift in Sources */,
 				192039D121726A5100C741A6 /* DemondVpnVC.swift in Sources */,
 				19675EFE2165104B00CAE25B /* ModeVC.swift in Sources */,
 				19D006DD2171AA1300BF0D9A /* ProtocolVC.swift in Sources */,

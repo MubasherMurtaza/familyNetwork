@@ -1,24 +1,25 @@
 //
-//  PFNVC.swift
+//  ReferralsAnsVC.swift
 //  familyNetwork
 //
-//  Created by Apple store on 17/10/2018.
+//  Created by Apple store on 20/10/2018.
 //  Copyright © 2018 MubasherMurtaza. All rights reserved.
 //
 
 import UIKit
 
-class PFNVC: UIViewController {
+class ReferralsAnsVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
+    
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return .lightContent
     }
-    @IBAction func PFNAction(_ sender: UIButton) {
+    @IBAction func FAQAction(_ sender: UIButton) {
         self.navigationController?.popViewController(animated: true)
     }
 
